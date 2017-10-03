@@ -21,7 +21,7 @@ public class TestPerformance {
   */
 
   // TODO refactor to DRY
-  // which of the two lists performs better as the size increases?  linkedList
+  // which of the two lists performs better as the size increases?  arrayList
   private final int SIZE = 100;
 
   // DONE choose this value in such a way that you can observe an actual effect
