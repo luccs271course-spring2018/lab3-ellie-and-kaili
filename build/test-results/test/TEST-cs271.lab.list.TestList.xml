@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="cs271.lab.list.TestList" tests="12" skipped="0" failures="0" errors="0" timestamp="2017-10-06T14:45:18" hostname="elenamurphy-lab003-5450866" time="0.005">
+<testsuite name="cs271.lab.list.TestList" tests="12" skipped="0" failures="0" errors="0" timestamp="2017-10-06T14:53:13" hostname="elenamurphy-lab003-5450866" time="0.007">
   <properties/>
-  <testcase name="testSet" classname="cs271.lab.list.TestList" time="0.001"/>
+  <testcase name="testSet" classname="cs271.lab.list.TestList" time="0.0"/>
   <testcase name="testAddMultiple" classname="cs271.lab.list.TestList" time="0.0"/>
-  <testcase name="testRetainAll" classname="cs271.lab.list.TestList" time="0.001"/>
+  <testcase name="testRetainAll" classname="cs271.lab.list.TestList" time="0.0"/>
   <testcase name="testContainsAll" classname="cs271.lab.list.TestList" time="0.0"/>
   <testcase name="testAddMultiple2" classname="cs271.lab.list.TestList" time="0.001"/>
   <testcase name="testRemoveObject" classname="cs271.lab.list.TestList" time="0.0"/>
   <testcase name="testSizeNonEmpty" classname="cs271.lab.list.TestList" time="0.0"/>
   <testcase name="testContains" classname="cs271.lab.list.TestList" time="0.0"/>
-  <testcase name="testSizeEmpty" classname="cs271.lab.list.TestList" time="0.0"/>
+  <testcase name="testSizeEmpty" classname="cs271.lab.list.TestList" time="0.001"/>
   <testcase name="testAddAll" classname="cs271.lab.list.TestList" time="0.0"/>
   <testcase name="testRemoveAll" classname="cs271.lab.list.TestList" time="0.001"/>
-  <testcase name="testSubList" classname="cs271.lab.list.TestList" time="0.0"/>
+  <testcase name="testSubList" classname="cs271.lab.list.TestList" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
