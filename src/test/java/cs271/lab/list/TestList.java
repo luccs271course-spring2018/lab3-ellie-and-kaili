@@ -7,6 +7,7 @@ import static org.junit.Assert.fail;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.LinkedList;
 import java.util.List;
 import org.junit.After;
 import org.junit.Before;
@@ -18,9 +19,9 @@ public class TestList {
 
   @Before
   public void setUp() throws Exception {
-    list = new ArrayList<Integer>();
-    // TODO also try with a LinkedList - does it make any difference?
-    //list = new LinkedList<Integer>();
+    //list = new ArrayList<Integer>();
+    // DONE also try with a LinkedList - does it make any difference?
+    list = new LinkedList<Integer>();
   }
 
   @After
@@ -97,14 +98,14 @@ public class TestList {
     list.add(5);
     list.add(77);
     list.add(6);
-    list.remove(5); // what does this method do?  it removes the item at index 5
+    list.remove(5); // what does this method do?
     // DONE fix the expected values in the assertions below
     assertEquals(6, list.size());
     assertEquals(1, list.indexOf(77));
     assertEquals(3, list.lastIndexOf(77));
     assertEquals(4, list.get(2).intValue());
     assertEquals(77, list.get(3).intValue());
-    list.remove(Integer.valueOf(5)); // what does this one do?  removes 5 from the list (at index 4)
+    list.remove(Integer.valueOf(5)); // what does this one do?
     assertEquals(5, list.size());
     assertEquals(1, list.indexOf(77));
     assertEquals(3, list.lastIndexOf(77));

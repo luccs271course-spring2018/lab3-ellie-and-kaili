@@ -1,3 +1,3 @@
-src/test/java/cs271/lab/list/TestPerformance.java,1506989426000000000,1826,FORMATTED
-src/test/java/cs271/lab/list/TestList.java,1506988561000000000,6304,FORMATTED
-src/test/java/cs271/lab/list/TestIterator.java,1506988448000000000,3102,FORMATTED
+src/test/java/cs271/lab/list/TestPerformance.java,1507002817000000000,1837,FORMATTED
+src/test/java/cs271/lab/list/TestList.java,1507301049000000000,6263,UNFORMATTED
+src/test/java/cs271/lab/list/TestIterator.java,1507301092000000000,3022,UNFORMATTED
